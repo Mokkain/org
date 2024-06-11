@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from 'react'; //Librería que nos ayuda a hacer interfaces gráficas
+import ReactDOM from 'react-dom/client'; //Este paquete nos ayudara a trabajar con React y con el DOM de nuestros navegadores
+import './index.css'; //Importando algunos estilos
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root')); //Representa la estructura de nuestro sitio web, esta ligado al id "root" que aparece dentro del div del documento index.html
 root.render(
   <React.StrictMode>
     <App />
